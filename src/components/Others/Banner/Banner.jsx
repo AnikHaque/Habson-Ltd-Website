@@ -7,12 +7,11 @@ const Banner = () => {
           <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
             <div className="max-w-xl mb-6">
               <h2 className=" mb-6 font-sans font-bold tracking-tight text-[#185C5D] text-4xl sm:leading-none lg:text-6xl">
-                Spark Something Real. Live Your Brands with Us.
+                Crafting Experiences That Unlock Brand Magic
               </h2>
               <p className="text-base text-[#323232] md:text-lg">
-                We ignite emotions, tell captivating stories, create campaigns
-                that resonate, and drive real results. Let&apos;s bring your
-                brand to life.
+                At HABSON, innovation meets imagination to spark wonder and
+                create truly magical brand experiences.
               </p>
             </div>
             <button className="bg-[#185C5D] rounded-full text-white px-10 py-3">
