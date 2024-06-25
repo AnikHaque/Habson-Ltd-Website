@@ -1,0 +1,30 @@
+/* Custom CSS for slick arrows */
+.slick-prev:before,
+.slick-next:before {
+  color: #185c5d;
+  font-size: 55px;
+}
+
+/* Ensure the container takes up the specified height */
+.hover-container {
+  position: relative;
+  /* background-color: #1a202c; Initial background color */
+  transition: background-color 1s; /* Transition for background color */
+}
+
+.hover-container:hover {
+  background-color: #48bb78; /* Background color on hover */
+}
+
+/* Hidden initially with max-height set to 0 */
+.hidden-on-hover {
+  display: block; /* Keep the element in the flow */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out; /* Smooth transition for height */
+}
+
+/* Visible on hover with max-height adjusted */
+.hover-container:hover .hidden-on-hover {
+  max-height: 200px; /* Adjust this value as needed */
+}

@@ -1,0 +1,5 @@
+/* Custom CSS for slick arrows */
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
